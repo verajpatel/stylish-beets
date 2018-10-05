@@ -1,0 +1,54 @@
+html {
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #c9b5ab;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.main {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  color: #3f1622;
+}
+
+li a {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #8f2440;
+}
+
+blockquote > p {
+  font-size: 1.125rem;
+}
+
+.quote {
+  font-family: "PT Serif", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+h2 {
+  font-weight: bold;
+  color: #3f1622;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: .8rem;
+  text-align: center;
+  color: #222;
+}

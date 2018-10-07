@@ -1,6 +1,17 @@
 html {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Serif", sans-serif;
   line-height: 1.5;
+}
+
+header {
+  font-family: "PT Sans", serif;
+  font-weight: normal;
+}
+
+.guides {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -16,6 +27,7 @@ img {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
+  color: #222;
 }
 
 h1 {
@@ -34,12 +46,10 @@ blockquote > p {
 }
 
 .quote {
-  font-family: "PT Serif", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
 }
-
 
 h2 {
   font-weight: bold;
@@ -51,4 +61,26 @@ figcaption {
   font-size: .8rem;
   text-align: center;
   color: #222;
+}
+
+dd > strong {
+  font-size: 1.125rem;
+  color: #222;
+}
+
+.varieties {
+  list-style-type: lower-greek;
+}
+
+.tags {
+  list-style-type: circle;
+}
+
+footer {
+  font-size: 1.125rem;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: none;
 }

@@ -8,6 +8,21 @@ header {
   font-weight: normal;
 }
 
+li a {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #8f2440;
+}
+
+h1 {
+  font-weight: bold;
+  color: #3f1622;
+}
+
+a {
+  text-decoration: none;
+}
+
 .guides {
   list-style-type: none;
   margin: 0;
@@ -30,17 +45,6 @@ img {
   color: #222;
 }
 
-h1 {
-  font-weight: bold;
-  color: #3f1622;
-}
-
-li a {
-  font-size: 1.125rem;
-  font-weight: bold;
-  color: #8f2440;
-}
-
 blockquote > p {
   font-size: 1.125rem;
 }
@@ -52,13 +56,14 @@ blockquote > p {
 }
 
 h2 {
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
   color: #3f1622;
 }
 
 figcaption {
   font-style: italic;
-  font-size: .8rem;
+  font-size: 1.125rem;
   text-align: center;
   color: #222;
 }

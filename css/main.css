@@ -4,17 +4,23 @@ html {
 }
 
 header {
+  font-size: 1.125rem;
   font-family: "PT Sans", serif;
   font-weight: normal;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 li a {
-  font-size: 1.125rem;
   font-weight: bold;
   color: #8f2440;
 }
 
 h1 {
+  font-size: 1.5rem;
   font-weight: bold;
   color: #3f1622;
 }
@@ -33,59 +39,61 @@ body {
   background-color: #c9b5ab;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 .main {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: bold;
   text-align: center;
   color: #222;
-}
-
-blockquote > p {
-  font-size: 1.125rem;
 }
 
 .quote {
   font-size: 1.5rem;
-  font-weight: bold;
   font-style: italic;
+}
+
+.speaker {
+  font-size: .8rem;
 }
 
 h2 {
+  font-size: 1.5rem;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
   color: #3f1622;
-}
-
-figcaption {
-  font-style: italic;
-  font-size: 1.125rem;
-  text-align: center;
-  color: #222;
-}
-
-dd > strong {
-  font-size: 1.125rem;
-  color: #222;
 }
 
 .varieties {
   list-style-type: lower-greek;
 }
 
+figure {
+  font-style: italic;
+  text-align: center;
+  color: #222;
+}
+
+dd > strong {
+  color: #222;
+}
+
+data {
+  font-style: italic;
+}
+
 .tags {
+  font-size: .8rem;
   list-style-type: circle;
 }
 
 footer {
-  font-size: 1.125rem;
+  font-weight: normal;
 }
 
 a:hover {
   color: #3f1622;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+.heading {
+  font-size: 1.125rem;
 }
